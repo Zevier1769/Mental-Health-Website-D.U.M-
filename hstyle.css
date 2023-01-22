@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Michroma&family=Poppins:wght@200;300;400;500;600;700;800&display=swap');
+
+.showcase{
+    min-height: 100vh;
+    padding: 100px;
+    background: black;
+    color: white;
+    z-index: 2;
+}
+
+.showcase header{
+    
+    width: 100%;
+    
+    font-family: 'Michroma', sans-serif;  
+  }
+
+.showcase img{
+
+    max-width: 958.4px;
+    max-height: 459.333px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.8;
+}
+
+.text{
+    z-index: 10;
+}
+
+.text h2{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
+    line-height: 1em;
+    text-transform: uppercase;
+    
+}
+
+.text h3{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    line-height: 1em;
+    text-transform: uppercase;
+}
+
+.text h5{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    
+}
+
+.text a{
+    font-family: 'Poppins', sans-serif;
+    display: inline-block;
+    font-size: 1em;
+    background: rgb(255, 255, 255);
+    padding: 10px 30px;
+    text-decoration: none;
+    color: black;
+    margin-top: 10px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    transition: 0.2s;
+}
+
+.text a:hover{
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 6px;
+    color: blue;
+}
+
+body{
+
+    min-height: 100vh;
+}
+
+footer{
+    position: sticky;
+    top: 100%;
+}

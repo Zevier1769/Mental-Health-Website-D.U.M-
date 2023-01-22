@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Michroma&family=Poppins:wght@200;300;400;500;600;700;800&display=swap');
+
+body{
+    min-height: 100vh;
+}
+
+footer{
+    position: sticky;
+    top: 100%;
+}
+
+
+#navlogo {
+    font-family: 'Michroma', sans-serif;
+    font-size: x-large;
+
+}
